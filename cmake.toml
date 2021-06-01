@@ -1,0 +1,11 @@
+[project]
+name = "CMakeMASM"
+languages = ["ASM_MASM"]
+
+[target.masmlib]
+type = "static"
+sources = [
+    "src/masmlib.asm",
+    "include/masmlib.h",
+]
+include-directories = ["include"]
